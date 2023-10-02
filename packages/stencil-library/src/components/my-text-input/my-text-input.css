@@ -1,0 +1,39 @@
+:host {
+  display: block;
+}
+
+:host input {
+  color: #ffffff;
+  margin-top: 0.5rem;
+  border-radius: 4px;
+  padding: 6px 12px;
+  border-color: #6b7280;
+  border-style: solid;
+  border-width: 0px;
+  background-color: rgb(255 255 255 / 0.05);
+  width: 100%;
+  line-height: 1.5rem;
+  font-size: 0.875rem;
+  box-sizing: border-box;
+  box-shadow: rgb(16, 24, 39) 0px 0px 0px 0px inset,
+              rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset,
+              rgba(0, 0, 0, 0.05) 0px 1px 2px 0px;
+  -webkit-font-smoothing: antialiased;
+}
+
+:host input:focus {
+  border: 0;
+  box-shadow: #ffffff 0px 0px 0px 0px inset,
+              #6366f1 0px 0px 0px 2px inset,
+              rgba(0, 0, 0, 0.05) 0px 1px 2px 0px
+}
+
+:host input:focus-visible {
+  outline: 0;
+}
+
+:host label {
+  font-size: 0.875rem;
+  font-weight: 500;
+  -webkit-font-smoothing: antialiased;
+}

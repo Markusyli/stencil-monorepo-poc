@@ -1,0 +1,7 @@
+:host {
+  display: block;
+  margin: 0 -12px;
+  display: flex;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+}

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=5.0" />
+    <title>Stencil Component Starter</title>
+
+    <script type="module" src="/build/stencil-library.esm.js"></script>
+    <script nomodule src="/build/stencil-library.js"></script>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap');
+    </style>
+    <style>
+      :root {
+        background-color: #101827;
+        font-family: 'Inter', sans-serif;
+        color: rgba(255, 255, 245, .86);
+      }
+    </style>
+  </head>
+  <body>
+    <my-container>
+      <my-row>
+        <my-col size=3>
+          <my-text-input name="first-name" label="First name" />
+        </my-col>
+        <my-col size=3>
+          <my-text-input name="last-name" label="Last name" />
+        </my-col>
+      </my-row>
+      <my-button>Submit</my-button>
+    </my-container>
+  </body>
+</html>

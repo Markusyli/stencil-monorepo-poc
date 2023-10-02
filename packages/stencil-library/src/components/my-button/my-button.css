@@ -1,0 +1,27 @@
+:host {
+  display: block;
+}
+
+:host button {
+  color: white;
+  border: 1px solid transparent;
+  border-radius: 6px;
+  font-size: 0.875rem;
+  font-weight: 500;
+  font-family: 'Inter', sans-serif;
+  background-color: #6366f1;
+  cursor: pointer;
+  transition: border-color 0.25s;
+
+  padding: 0.5rem 0.75rem;
+  font-weight: 600;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+}
+:host button:hover {
+  background-color: #818cf8;
+}
+:host button:focus,
+:host button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}

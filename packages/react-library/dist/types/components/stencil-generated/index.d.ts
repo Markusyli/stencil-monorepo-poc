@@ -1,0 +1,7 @@
+/// <reference types="react" />
+import type { JSX } from 'stencil-library';
+export declare const MyButton: import("react").ForwardRefExoticComponent<JSX.MyButton & Omit<import("react").HTMLAttributes<HTMLMyButtonElement>, "style"> & import("./react-component-lib/interfaces").StyleReactProps & import("react").RefAttributes<HTMLMyButtonElement>>;
+export declare const MyCol: import("react").ForwardRefExoticComponent<JSX.MyCol & Omit<import("react").HTMLAttributes<HTMLMyColElement>, "style"> & import("./react-component-lib/interfaces").StyleReactProps & import("react").RefAttributes<HTMLMyColElement>>;
+export declare const MyContainer: import("react").ForwardRefExoticComponent<JSX.MyContainer & Omit<import("react").HTMLAttributes<HTMLMyContainerElement>, "style"> & import("./react-component-lib/interfaces").StyleReactProps & import("react").RefAttributes<HTMLMyContainerElement>>;
+export declare const MyRow: import("react").ForwardRefExoticComponent<JSX.MyRow & Omit<import("react").HTMLAttributes<HTMLMyRowElement>, "style"> & import("./react-component-lib/interfaces").StyleReactProps & import("react").RefAttributes<HTMLMyRowElement>>;
+export declare const MyTextInput: import("react").ForwardRefExoticComponent<JSX.MyTextInput & Omit<import("react").HTMLAttributes<HTMLMyTextInputElement>, "style"> & import("./react-component-lib/interfaces").StyleReactProps & import("react").RefAttributes<HTMLMyTextInputElement>>;
