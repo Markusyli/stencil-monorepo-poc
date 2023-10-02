@@ -20,7 +20,7 @@ packages/
 
 `vue-consumer-app` contains Vue application consuming the `vue-library`
 
-## Deployed consumer apps:
+## Deployed consumer apps (works only with dark mode enabled in the OS):
 
 [React app](https://monorepo-test-amber-phi.vercel.app/) deployed in Vercel
 
